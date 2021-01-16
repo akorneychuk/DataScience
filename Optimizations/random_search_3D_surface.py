@@ -56,14 +56,17 @@ if __name__ == '__main__':
     # Highest point
     highest_point = sorted_combinations[len(sorted_combinations)-1]
 
-    ax.plot_surface(X, Y, Z, cmap="autumn_r", rstride=1, alpha=0.1, antialiased=False)
-    ax.scatter(*zip(*combinations), s=size, marker='o')
-    ax.scatter(lowest_point[0], lowest_point[1], lowest_point[2], s=30, marker='o', c="#00ff00")
-    ax.scatter(highest_point[0], highest_point[1], highest_point[2], s=30, marker='o', c="#ff0000")
+    def draw_together():
+        ax.scatter(*zip(*combinations), s=size, marker='o', c="#db78ff")
+        ax.plot_surface(X, Y, Z, cmap="autumn_r", rstride=1, alpha=0.1, antialiased=False)
+        ax.scatter(lowest_point[0], lowest_point[1], lowest_point[2], s=30, marker='o', c="#00ff00")
+        ax.scatter(highest_point[0], highest_point[1], highest_point[2], s=30, marker='o', c="#ff0000")
+        camera.snap()
 
-    camera.snap()
+    for i in range(0, 20):
+        draw_together()
 
     anim = camera.animate()
-    anim.save('random_search_3D_surface.mp4')
+    anim.save('../video_outputs/random_search_3D_surface.mp4')
 
     plt.show()
