@@ -130,7 +130,7 @@ if __name__ == '__main__':
         draw_together()
 
     anim = camera.animate()
-    anim.save('../video_outputs/gradient_descendant_3D_surface_3.mp4')
+    anim.save('../render_outputs/gradient_descendant_3D_surface_3.mp4')
 
     plt.show()
 

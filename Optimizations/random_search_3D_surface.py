@@ -67,6 +67,6 @@ if __name__ == '__main__':
         draw_together()
 
     anim = camera.animate()
-    anim.save('../video_outputs/random_search_3D_surface.mp4')
+    anim.save('../render_outputs/random_search_3D_surface.mp4')
 
     plt.show()
