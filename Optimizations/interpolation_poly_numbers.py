@@ -50,7 +50,8 @@ if __name__ == '__main__':
 
     plt.plot(Xs, Ys, '-')
 
-    for x_i in np.linspace(x_start, x_end, step):
+    iterator = np.linspace(x_start, x_end, step)
+    for x_i in iterator:
         Y_calc = polinom_n(Xs, Ys, x_i)
         plt.plot(x_i, Y_calc, 'o')
 
