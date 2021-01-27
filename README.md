@@ -5,13 +5,13 @@
 ![](render_outputs/random_search_3D_surface.gif)
 
 ### Gradient Descent algorithm video animations
-##### Starting point x0 = 0.5, y0 = 0.45
+##### Starting point Xo = 0.5, Yo = 0.45
 ![](render_outputs/gradient_descendant_3D_surface_1.gif)
 
-##### Starting point x0 = -0.75, y0 = -0.25
+##### Starting point Xo = -0.75, Yo = -0.25
 ![](render_outputs/gradient_descendant_3D_surface_2.gif)
 
-##### Starting point x0 = -0.3, y0 = -0.7
+##### Starting point Xo = -0.3, Yo = -0.7
 ![](render_outputs/gradient_descendant_3D_surface_3.gif)
 
 ### Interpolations using poly numbers
