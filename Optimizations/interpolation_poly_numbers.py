@@ -40,20 +40,17 @@ def polinom_n(Xs, Ys, poly_x):
 
 
 if __name__ == '__main__':
-    step = 10
-    x_start = 0
-    x_end = 1/2
-    Xs = np.array([x_start, 1/5, x_end])
-    # Xs = np.linspace(0, 1/2, num=100, endpoint=True)
+    step = 50
+    Xs = np.array([1, 2, 4, 7])
 
-    Ys = np.sin(np.pi * Xs)
+    Ys = np.array([2, 3, 1, 4])
 
-    plt.plot(Xs, Ys, '-')
-
-    iterator = np.linspace(x_start, x_end, step)
+    iterator = np.linspace(Xs[0], Xs[len(Xs)-1], step)
     for x_i in iterator:
         Y_calc = polinom_n(Xs, Ys, x_i)
-        plt.plot(x_i, Y_calc, 'o')
+        plt.plot(x_i, Y_calc, '*')
+
+    plt.plot(Xs, Ys, 'o', c="cyan")
 
     plt.show()
 
