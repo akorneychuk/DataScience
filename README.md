@@ -15,6 +15,8 @@
 ![](render_outputs/gradient_descendant_3D_surface_3.gif)
 
 ### Interpolations using poly numbers
+##### Xs = np.array([1, 2, 4, 7])
+##### Ys = np.array([2, 3, 1, 4])
 ![](render_outputs/interpolation_poly_numbers.jpg)
 
 ### Approximation Linear
