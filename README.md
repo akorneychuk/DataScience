@@ -19,7 +19,12 @@
 ##### Ys = np.array([2, 3, 1, 4])
 ![](render_outputs/interpolation_poly_numbers.jpg)
 
-### Approximation Linear
+### Linear Approximation Analytical
 ##### Xs = [240, 400, 445, 500, 630, 800, 1000, 1080, 1250, 2000]
 ##### Ys = [3, 7.5, 8.37, 11, 15, 18.5, 22, 22, 30, 55]
 ![](render_outputs/linear_approximation.jpg)
+
+### Linear Approximation Regression
+##### Xs = [240, 400, 445, 500, 630, 800, 1000, 1080, 1250, 2000]
+##### Ys = [3, 7.5, 8.37, 11, 15, 18.5, 22, 22, 30, 55]
+![](render_outputs/linear_approximation_regression.gif)
