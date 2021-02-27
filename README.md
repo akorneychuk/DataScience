@@ -24,7 +24,8 @@
 ##### Ys = [3, 7.5, 8.37, 11, 15, 18.5, 22, 22, 30, 55]
 ![](render_outputs/linear_approximation.jpg)
 
-### Linear Approximation Regression
+### Gradient descendant optimization to build poly-number function
+
 ##### Xs = [1, 2, 4, 7]
 ##### Ys = [2, 3, 1, 4]
 ![]()
