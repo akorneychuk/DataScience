@@ -25,10 +25,10 @@
 ![](render_outputs/linear_approximation.jpg)
 
 ### Linear Approximation Regression
-##### Xs = [240, 400, 445, 500, 630, 800, 1000, 1080, 1250, 2000]
-##### Ys = [3, 7.5, 8.37, 11, 15, 18.5, 22, 22, 30, 55]
+##### Xs = [1, 2, 4, 7]
+##### Ys = [2, 3, 1, 4]
 ![]()
-Solarized dark             |  Solarized Ocean
+Animation                  |  Result
 :-------------------------:|:-------------------------:
 ![](render_outputs/approx_poly_num_opt/approx_poly_num_opt__2-2-0-0.gif)  |  ![](render_outputs/approx_poly_num_opt/approx_poly_num_opt__2-2-0-0.png)
 
