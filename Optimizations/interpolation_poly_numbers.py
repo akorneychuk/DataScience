@@ -1,7 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import functools
-from scipy.interpolate import interp1d
 
 
 def approximation(poly_x, X_k, X_i):
@@ -42,7 +40,6 @@ def polinom_n(Xs, Ys, poly_x):
 if __name__ == '__main__':
     step = 50
     Xs = np.array([1, 2, 4, 7])
-
     Ys = np.array([2, 3, 1, 4])
 
     iterator = np.linspace(Xs[0], Xs[len(Xs)-1], step)
@@ -51,6 +48,4 @@ if __name__ == '__main__':
         plt.plot(x_i, Y_calc, '*')
 
     plt.plot(Xs, Ys, 'o', c="cyan")
-
     plt.show()
-
